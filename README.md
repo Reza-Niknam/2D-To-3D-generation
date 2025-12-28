@@ -36,7 +36,7 @@ pip install https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton
 # Install other requirements
 pip install -r requirements.txt
 ```
-configs link: https://mega.nz/folder/QSpQCIYR#KtmCMtuNVGes3TPu247myg
+
 # 💫 How to Use
 
 ## Running with command line
