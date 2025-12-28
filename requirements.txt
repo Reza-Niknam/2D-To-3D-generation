@@ -1,0 +1,29 @@
+# --- Core Deep Learning Framework and Utilities ---
+pytorch-lightning==2.1.2 # High-level PyTorch wrapper for scalable and organized training.
+# PyTorch Lightning simplifies training loops, callbacks, and distributed computing.
+torchmetrics # Collection of relevant metrics for PyTorch/PyTorch Lightning.
+accelerate # Hugging Face library for seamless distributed training and mixed precision across different environments.
+tensorboard # Visualization toolkit for tracking experiment metrics and logs.
+
+# --- Model Architectures and Core AI Libraries ---
+transformers==4.34.1 # Hugging Face library providing state-of-the-art models (like text encoders for diffusion).
+diffusers==0.20.2 # Hugging Face library for working with diffusion models (e.g., Stable Diffusion, Zero123).
+bitsandbytes # Optimization library, often used for 8-bit quantization to reduce memory usage on GPUs.
+
+# --- Data Handling and Manipulation ---
+einops # Versatile library for readable and robust tensor manipulation (rearrange, repeat, reduce).
+omegaconf # Configuration management library (YAML/dict) for defining model and training parameters.
+webdataset # Efficient I/O format for large datasets, often used for training large-scale models.
+
+# --- 3D and Graphics Processing ---
+PyMCubes # Python wrapper for marching cubes algorithm (often used for converting implicit fields/density to meshes).
+trimesh # Library for loading, processing, and analyzing 3D triangular meshes.
+xatlas # Python binding for the xatlas tool, used for generating high-quality UV unwrapping/atlases for texture mapping.
+plyfile # Library for reading and writing PLY (Polygon File Format) files, a common 3D format.
+git+https://github.com/NVlabs/nvdiffrast/ # Real-time differentiable rasterization library (crucial for differentiable rendering/graphics).
+
+# --- Utilities and Integration ---
+gradio==3.41.2 # Python library for quickly creating customizable web UIs for ML models (e.g., for demos or sharing).
+huggingface-hub # Client library for interacting with the Hugging Face Hub (model/dataset storage and sharing).
+rembg # Library for removing the background from images (often used as a preprocessing step in 3D generation).
+imageio[ffmpeg] # Library for reading and writing image and video data (the [ffmpeg] extension enables video processing).
